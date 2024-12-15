@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      animation:{
+        'bounce-slow':'bounce 3s linear infinite',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
